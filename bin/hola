@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'hola_z15021sn'
+puts Hola.hi(ARGV[0])

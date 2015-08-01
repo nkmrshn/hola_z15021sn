@@ -9,6 +9,8 @@ class HolaZ15021sn::Translator
       "こんにちは世界"
     when "spanish"
       "hola mundo"
+    when "german"
+      "Hallo Welt"
     else
       "hello world"
     end

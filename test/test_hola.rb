@@ -17,4 +17,8 @@ class HolaTest < Minitest::Test
   def test_japanese_hello
     assert_equal "こんにちは世界", HolaZ15021sn.hi("japanese")
   end
+
+  def test_german_hello
+    assert_equal "Hallo Welt", HolaZ15021sn.hi("german")
+  end
 end

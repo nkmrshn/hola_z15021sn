@@ -11,6 +11,8 @@ class HolaZ15021sn::Translator
       "hola mundo"
     when "german"
       "Hallo Welt"
+    when "french"
+      "Bonjour, l'univers"
     else
       "hello world"
     end
